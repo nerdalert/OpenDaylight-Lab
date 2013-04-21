@@ -94,7 +94,7 @@ $apt-get install openvswitch-brcompat openvswitch-common openvswitch-controller
 
 ==========================================
 
-#If you have the cycles, come contribute to the project. You dont have to be a programmer to contribute. Lots of documentation and architectural frameworks need to be created so jump in! Feel free to contact me on twitter @networkstatic for information and be sure to join the mainling lists to share and collaborate with others using SDN.
+If you have the cycles, come contribute to the project. You dont have to be a programmer to contribute. Lots of documentation and architectural frameworks need to be created so jump in! Feel free to contact me on twitter @networkstatic for information and be sure to join the mainling lists to share and collaborate with others using SDN.
 
 Regards,
 Brent Salisbury
