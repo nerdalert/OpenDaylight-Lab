@@ -6,8 +6,11 @@ OpenDaylight SDN / OpenFlow controller Lab VM Image including Wireshark with an 
 Download VirtualBox at https://www.virtualbox.org/wiki/Downloads
 
 ==========================================
-Section I. OpenDaylight and Wireshark are both preinstalled on the guest VM image. The second section has instructions to install the software on another host.
+Section I. OpenDaylight and Wireshark
 ==========================================
+
+Both ODP and Wireshark are preinstalled on the guest VM image. The second section has instructions to install the software on another host.
+
 ### VM System Settings ###
 
 sudo password: passwd
