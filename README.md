@@ -86,11 +86,12 @@ Section II. Installing the software on another machine
 
 ==========================================
 
-### Installing Open vSwitch - OVS can be used much like mininet for integrating hosts ###
+### Installing Open vSwitch -  ###
+OVS can be used much like mininet for integrating hosts
 
-$apt-get install openvswitch-datapath-source bridge-utils
-$module-assistant auto-install openvswitch-datapath
-$apt-get install openvswitch-brcompat openvswitch-common openvswitch-controller
+1. apt-get install openvswitch-datapath-source bridge-utils
+2. module-assistant auto-install openvswitch-datapath
+3. apt-get install openvswitch-brcompat openvswitch-common openvswitch-controller
 
 ==========================================
 
