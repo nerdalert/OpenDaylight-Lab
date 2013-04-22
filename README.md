@@ -50,7 +50,7 @@ If you want to run everything on another machine, ssh to the guest VM using "ssh
 1. Double click the Wireshark icon on the desktop (run with sudo privs, ignore Lua error).
 2. Capture -> Interfaces -> eth0. Then start the capture. 
 3. Type "of" (no parentheses) in the filter window to ignore all packets other then OpenFlow packets (recommended).
-4. 
+
 ==========================================
 
 ### Using ODP ###
@@ -131,7 +131,9 @@ OVS can be used much like mininet for integrating hosts
 If you have the cycles, come contribute to the project. You dont have to be a programmer to contribute. Lots of documentation and architectural frameworks need to be created so jump in! Feel free to contact me on twitter @networkstatic for information and be sure to join the mainling lists to share and collaborate with others using SDN.
 
 Regards,
+
 Brent
+
 @networkstatic
 
 ==========================================
