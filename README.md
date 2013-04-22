@@ -13,9 +13,13 @@ Both ODP and Wireshark are preinstalled on the guest VM image. The second sectio
 
 ### VM System Settings ###
 
-sudo password: passwd
+Default VM account UID/password
+User ID: odp
+password: passwd
 Change the root password type: "passwd" in the console.
 It is recommended to install the guest OS tools whether using VirtualBox or VM Fusion.
+After installing the mini.iso image, you can add a fairly stripped down Ubuntu GUI with the following (~500MB):
+sudo apt-get install xorg xterm gdm ubuntu-desktop menu firefox gksu synaptic --no-install-recommends
 
 ==========================================
 
@@ -24,6 +28,7 @@ It is recommended to install the guest OS tools whether using VirtualBox or VM F
 1. cd /home/odp/controller/opendaylight/distribution/opendaylight/target/distribution.opendaylight-0.1.0-SNAPSHOT-osgipackage/opendaylight 
 2. ./run.sh
 3. Click hyperlink on the desktop or any browser that can reach the IP of the guest VM to http://<ip>:8080
+The OpenDaylight web UI is:
 Username: admin
 Passwork: admin
 
@@ -37,7 +42,7 @@ If you want to run everything on another machine, ssh to the guest VM using "ssh
 1. Double click the Wireshark icon on the desktop (run with sudo privs, ignore Lua error).
 2. Capture -> Interfaces -> eth0. Then start the capture. 
 3. Type "of" (no parentheses) in the filter window to ignore all packets other then OpenFlow packets (recommended).
-
+4. 
 ==========================================
 
 ### Using ODP ###
@@ -79,21 +84,32 @@ http://networkstatic.net/openvswitch-and-openflow-lab-preparation/
 
 ### Installing Wireshark and the OpenFlow dissector ###
 
-1. apt-get update && apt-get install wireshark-dev wireshark mercurial git
-2. apt-get install hg
-3. hg clone https://bitbucket.org/barnstorm/of-dissector
-4. cd of-dissector/src
-5. apt-get install scons
-6. alias sudo='sudo env WIRESHARK=/usr/include/wireshark/'
-7. scons install
+1. apt-get update && apt-get install wireshark-dev wireshark mercurial git scons
+2. hg clone https://bitbucket.org/barnstorm/of-dissector
+3. cd of-dissector/src
+4. alias sudo='sudo env WIRESHARK=/usr/include/wireshark/'
+5. sudo scons install
 /*
 #This creates a shared object (so) named openflow.so.
 #Move openflow.so to the Wireshark plugin directory.
 */
-8. mv openflow.so /usr/lib/wireshark/libwireshark1/plugins/openflow.so
-9. Start Wireshark, look in Help->About->Plugins tab. You should see openflow.so as a listed dissector.
+6. sudo mv /home/odp/.wireshark/plugins/openflow.so /usr/lib/wireshark/libwireshark2/plugins/
+7. Start Wireshark, look in Help->About->Plugins tab. You should see openflow.so as a listed dissector.
 
 ==========================================
+
+### Installing Eclipse ###
+
+Download Eclipse IDE for Java EE Developers:
+http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/junosr2
+tar xvfz eclipse-jee-juno-SR2-linux-gtk-x86_64.tar.gz
+
+Instructions for importing this bootsrap into Eclipse see:
+https://wiki.opendaylight.org/view/OpenDaylight_Controller:Eclipse_CLI_Setup
+
+Video for importing ODP into Eclipse:
+https://wiki.opendaylight.org/view/OpenDaylight_Controller:Importing_OpenDaylight_Controller_into_Eclipse
+
 
 ### Installing Open vSwitch -  ###
 OVS can be used much like mininet for integrating hosts
