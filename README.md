@@ -56,6 +56,15 @@ https://wiki.opendaylight.org/view/OpenDaylight_Controller:Installation
 Section II. Installing the software on another machine
 ==========================================
 
+### Installing a Hypervisor and Guest VM ###
+
+Setting up a stripped down Ubuntu VM. Download the Minimal CD.
+Ubuntu mini.iso - https://help.ubuntu.com/community/Installation/MinimalCD
+A video of installing with VirtualBox can be found here: 
+http://networkstatic.net/openvswitch-and-openflow-lab-preparation/
+
+==========================================
+
 ### Installing OpenDaylight ###
 
 1. apt-get update
