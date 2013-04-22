@@ -5,6 +5,14 @@ OpenDaylight SDN / OpenFlow controller Lab VM Image including Wireshark with an 
 
 Download VirtualBox at https://www.virtualbox.org/wiki/Downloads
 
+The VM contains the following working components:
+
+-A working OpenDaylight bootstrap controller.
+-Wireshark w/ OpenFlow dissector.
+-Eclipse w/ working OpenDaylight bootstrap controller.
+-VM running Ubuntu 12.04.
+-Intructions for installing all of the software above.
+
 ==========================================
 Section I. OpenDaylight and Wireshark
 ==========================================
@@ -123,6 +131,7 @@ OVS can be used much like mininet for integrating hosts
 If you have the cycles, come contribute to the project. You dont have to be a programmer to contribute. Lots of documentation and architectural frameworks need to be created so jump in! Feel free to contact me on twitter @networkstatic for information and be sure to join the mainling lists to share and collaborate with others using SDN.
 
 Regards,
-Brent Salisbury
+Brent
+@networkstatic
 
 ==========================================
