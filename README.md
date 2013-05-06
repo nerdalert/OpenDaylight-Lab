@@ -1,8 +1,10 @@
 OpenDaylight-Lab
 ================
 
-This VM has preinstalled, controllers and OpenFlow tools on a VM image. Very little if any Linux knowledge is required.
 
+These VMs contains the following working components, along with a snapshot of any bugs from the time of pull. Very little if any Linux knowledge is required. Never a bad time to learn Linux anywho if you havent made the time before.  
+
+There will be plenty of bugs, but this is all brand new so be patient or help fix it. You can update the code by pulling updates, or just deleting the code directory and re-cloning the repo with the instructions in the second part of this post:  
 
 The VM contains the following working components:  
 ==========================================
