@@ -25,6 +25,10 @@ Section I. Getting Started with OpenDaylight
 
 Both ODP and Wireshark are preinstalled on the guest VM image. The second section has instructions to install the software on another host.  
 
+*The ODP-Lab1-VM.mp4.zip (40MB) Is a video to look at before you download to see if it is something you want to download.  
+*The ODP-VM-Ops.zip (1.6GB) image contains both current bootstraps Wireshark + Dissector and intructions to start them both.  
+*The ODP-VM-Dev.zip (2.7GB) image contains both bootstraps already built into Eclipse along with the controller, Wireshark + Dissector, both current bootstraps and intructions to start them both.  
+
 Here is the video from the project http://youtu.be/2K6Wnt3eMb8  
 
 Or you can clone the project to download it with:  
@@ -40,10 +44,6 @@ I have moved it off GitHub since they disabled downloads and Dropbox likes to di
 https://filezilla-project.org  
 
 ### Vmware Image Import  ###
-
-*The ODP-Lab1-VM.mp4.zip (40MB) Is a video to look at before you download to see if it is something you want to download.  
-*The ODP-VM-Ops.zip (1.6GB) image contains both current bootstraps Wireshark + Dissector and intructions to start them both.  
-*The ODP-VM-Dev.zip (2.7GB) image contains both bootstraps already built into Eclipse along with the controller, Wireshark + Dissector, both current bootstraps and intructions to start them both.  
 
 The images are in a .OVF format that should interop with about any hypervisor out there. I am leaving the how to below for *.Vmwarevm in case anyone needs it but I have changed the images to *.OVF.  
 Vmware (Commercial - Easy) - If using VMware add a guest host and locate the existing virtual disk or just unzip and double-click the vmwarevm image file.   
