@@ -18,6 +18,7 @@ The VM contains the following working components:
 -DHCP is enabled on the VM.  
 
 There is a post for this at http://networkstatic.net/pre-built-opendaylight-vm-images/  That includes some videos and a bit more detail it it helps.  
+
 ==========================================
 Section I. Getting Started with OpenDaylight 
 ==========================================
