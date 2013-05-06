@@ -261,5 +261,4 @@ Brent
 @networkstatic  
 http://networkstatic.net  
 
-http://networkstatic.net/pre-built-opendaylight-vm-images/  
-==========================================
+http://networkstatic.net/pre-built-opendaylight-vm-images/
