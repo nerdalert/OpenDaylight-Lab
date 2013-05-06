@@ -29,7 +29,9 @@ Both ODP and Wireshark are preinstalled on the guest VM image. The second sectio
 *The ODP-VM-Ops.zip (1.6GB) image contains both current bootstraps Wireshark + Dissector and intructions to start them both.  
 *The ODP-VM-Dev.zip (2.7GB) image contains both bootstraps already built into Eclipse along with the controller, Wireshark + Dissector, both current bootstraps and intructions to start them both.  
 
-Here is the video from the project http://youtu.be/2K6Wnt3eMb8  
+For the quickstart the user ID is: "odp" and the password is: "passwd". Change the password on install.  
+
+Here is the video from the project http://youtu.be/2K6Wnt3eMb8 or clone the repo for it.
 
 Or you can clone the project to download it with:  
 git clone https://github.com/nerdalert/OpenDaylight-Lab.git  
