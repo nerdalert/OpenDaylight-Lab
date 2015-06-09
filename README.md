@@ -14,7 +14,7 @@ The VM contains the following working components:
 -VM running Ubuntu 12.04.  
 -Intructions for installing all of the software above.  
 -The only service running outside of the vanilla Ubuntu install is ssh daemon. To remove run "sudo apt-get purge openssh-server". 
--VM is set to attach to the bridge your Nic is attached to rather then sharing the hosts NIC (PAT).  
+-VM is set to attach to the bridge your Nic is attached to rather than sharing the hosts NIC (PAT).  
 -DHCP is enabled on the VM.  
 
 There is a post for this at http://networkstatic.net/pre-built-opendaylight-vm-images/  That includes some videos and a bit more detail it it helps.  
