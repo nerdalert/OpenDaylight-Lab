@@ -1,6 +1,7 @@
 OpenDaylight-Lab
 ================
 
+Note: FYI, this is no longer up to date. Please see the project pages for the latest info and tutorials.
 
 These VMs contains the following working components, along with a snapshot of any bugs from the time of pull. Very little if any Linux knowledge is required. Never a bad time to learn Linux anywho if you havent made the time before.  
 
